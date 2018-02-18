@@ -1,1 +1,18 @@
 * auto=true
+*.png diff=exif
+
+*.odt diff=odt
+
+*.doc diff=word
+
+*.pbxproj -crlf -diff
+
+*.txt ident
+
+test_export_ignore/ export-ignore
+
+
+LAST_COMMIT export-subst
+
+
+database.xml merge=ours
